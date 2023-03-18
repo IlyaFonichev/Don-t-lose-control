@@ -20,7 +20,7 @@ public class ShowStress : MonoBehaviour
     private void onChangeStressInterface(Stress stress)
     {
         Vector3 parentPos = _parentImageStress.transform.position;
-        float oneUnit = 0.035f;
+        float oneUnit = 0.017f;
         Vector3 shfit = new Vector3(0f, ((float)stress.GetMaxStress() - stress.GetCurrentStress()) * oneUnit, 0f);
         _childImageStress.transform.position = parentPos - shfit;
     }
