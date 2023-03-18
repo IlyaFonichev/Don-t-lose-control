@@ -379,8 +379,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1398167272}
-  - component: {fileID: 1398167273}
   - component: {fileID: 1398167275}
+  - component: {fileID: 1398167273}
   - component: {fileID: 1398167274}
   m_Layer: 0
   m_Name: Chief
@@ -774,6 +774,30 @@ PrefabInstance:
     - target: {fileID: 7479471080445198886, guid: 93403a69271e10941bc71eca7e61fa6f, type: 3}
       propertyPath: m_Name
       value: child
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479471080576342542, guid: 93403a69271e10941bc71eca7e61fa6f, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479471080576342542, guid: 93403a69271e10941bc71eca7e61fa6f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479471080576342542, guid: 93403a69271e10941bc71eca7e61fa6f, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479471080576342542, guid: 93403a69271e10941bc71eca7e61fa6f, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479471080576342542, guid: 93403a69271e10941bc71eca7e61fa6f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 116.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479471080576342542, guid: 93403a69271e10941bc71eca7e61fa6f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -113
       objectReference: {fileID: 0}
     - target: {fileID: 7479471080576342543, guid: 93403a69271e10941bc71eca7e61fa6f, type: 3}
       propertyPath: m_Name
