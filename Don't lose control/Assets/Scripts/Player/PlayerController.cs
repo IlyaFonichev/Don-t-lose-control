@@ -1,16 +1,18 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SocialPlatforms.Impl;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] private float speed = 10f;
-
+    [SerializeField] 
+    private float speed = 10f;
     private Rigidbody2D _rigidBody;
+    private static Stress _playerStress;
 
+    
     private void Start()
     {
+        _playerStress = new Stress(10, 100);
+        PlayerStaticEvents.changeStressInterface?.Invoke(_playerStress);
+
         _rigidBody = gameObject.GetComponent<Rigidbody2D>();
     }
 
@@ -26,4 +28,6 @@ public class PlayerController : MonoBehaviour
     {
         _rigidBody.velocity = direction.normalized * speed;
     }
+
+    public static Stress GetPlayerStress() { return _playerStress; }
 }
