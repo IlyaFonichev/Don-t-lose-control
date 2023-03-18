@@ -34,7 +34,7 @@ public class Worker : MonoBehaviour
     {
         if (chiefNearby)
         {
-            if (PlayerController.instance.getCalmness > 80)
+            if (PlayerController_.instance.getCalmness > 80)
             {
                 if (Random.Range(0, 10) == 0)
                     GoHome();

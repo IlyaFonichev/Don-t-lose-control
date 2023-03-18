@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController_ : MonoBehaviour
 {
     private float speed;
     private float calmness;
-    public static PlayerController instance;
+    public static PlayerController_ instance;
     private void Start()
     {
         if (instance == null)
