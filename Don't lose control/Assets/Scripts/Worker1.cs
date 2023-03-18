@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Worker : MonoBehaviour
+public class Worker1 : MonoBehaviour
 {
     [SerializeField]
     private List<Sprite> workDisplayes;
